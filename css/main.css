@@ -1,0 +1,136 @@
+.remove-default-hover-and-color-link{
+    color: black;
+}
+.remove-default-hover-and-color-link:hover{
+    color: black;
+    text-decoration: none;
+}
+hr{
+    border-top:1px solid #fd9a7f;
+    width: 85%;
+}
+/* start sideBar */
+.side-bar{
+    display: flex;
+    flex-direction: column;
+}
+
+/* logo */
+.logo-item{
+    background-color: #F15025;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+}
+.logo-item:hover{
+    text-decoration: none;
+}
+.logo-item span{
+    color: white;
+}
+/* logo */
+
+/* nonActive */
+.nonActive-item{
+    font-weight: bolder;
+    color: #CED0CE;
+}
+/* nonActive */
+
+/* link-item */
+.link-item:hover{
+    background-color: #f8f9fa;
+}
+.link-item i{
+   color: #CED0CE;
+}
+.link-item span{
+    color: #495057;
+    font-weight: bolder;
+}
+.link-item:hover{
+    text-decoration: none;
+    background-color:#f8f9fa;
+}
+/* link-item */
+
+/* last link */
+.explore-link-style{
+    background-color: #F15025;
+    color: #353531;
+    font-weight: bolder;
+    border-radius: 15px;
+   
+}
+.explore-link-style:hover{
+    background-color: #353531;
+    color: #F15025;
+    text-decoration: none;
+}
+/* last link */
+
+/* end sideBar */
+/* first section */
+.first-section{
+    align-items: center;
+    padding: 20px 0;
+}
+.icons-item{
+    display: flex;
+    justify-content: space-around;
+}
+.next-prev-style{
+    cursor: pointer;
+}
+.search-item a{
+    color: black;
+}
+.search-item a:hover{
+    color: black;
+}
+.title-item a{
+color: black;
+}
+.title-item a:hover{
+    color: black;
+    text-decoration: none;
+}
+/* first section */
+/* start slider */
+.img-container{
+    position: relative;
+    background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+}
+.item .img-container a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: .5s;
+    font-size: 30px;
+    color: white;
+    opacity: 0;  
+    z-index: 3;  
+}
+
+
+.item img{
+    transition:.5s;
+}
+.item:hover img{
+transform: scale(1.2,1.2);
+opacity: .5;
+}
+.item:hover a{
+    opacity: 1;
+}
+.item .img-container{
+    overflow: hidden;
+}
+/* end slider */
+/* table */
+.bottom-border{
+    border-bottom: 1px solid #d2d2d2;
+}
+/* end table */
